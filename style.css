@@ -5,9 +5,8 @@
 body {
   height: auto;
   width: 100vw;
-  background-image: url(img/back0.png);
   opacity: 90%;
-  background-color: #000000;
+  background-color: #233240;
   background-size: cover;
 }
 
