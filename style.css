@@ -6,7 +6,7 @@ body {
   height: auto;
   width: 100vw;
   opacity: 90%;
-  background-color: #233240;
+  background-color:rgba(0, 0, 0, 0.76);
   background-size: cover;
 }
 
