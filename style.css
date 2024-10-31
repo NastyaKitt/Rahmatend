@@ -6,7 +6,8 @@ body {
   height: auto;
   width: 100vw;
   opacity: 100%;
-  background-size: cover;
+  background-color: #333;
+  background-size: 100vw;
   background-image: url(img/list.jpg);
   background-position: center;
 
@@ -27,31 +28,61 @@ html {
   }
 
 }
-@media screen and ( min-width:1024px) and (max-width:1280px) {
+@media screen and ( min-width:1024px) and (max-width:1380px) {
     html {
         font-size: 14px;
     }
-    .vl {
+    div.header, div.firstwin, div.twowin, div.threewin, div.fourwin, div.fivewin, div.sixwin, div.footer {
+    width: calc(100% - 30rem);
+      padding-left: 15rem;
+    padding-right: 15rem;
+    }
+    div.centerlogo, div.rightlogo {
+      font-size: 0.5rem;
+    }
+    div.firstwinwin {
+      padding: 0;
+    }
+    div.vl {
         height: auto;
     }
-    .leftlogo {
+    p.maintext2wintext {
+      margin: 1rem 0 0;
+    }
+    div.leftlogo {
         padding: 0;
 
     }
-    div.fivewin21 p {
-      padding: 1.5rem 0 0 7.1825rem;
+    div.threewin1121, div.threewin1111 {
+      font-size: 1.5rem;
+    }
+    div.threewin11121, div.threewin11221 {
+      margin-top: 2rem;
+      font-size: 1rem;
     }
 }
 @media screen and ( min-width:900px) and (max-width:1023px) {
     html {
         font-size: 12px;
     }
+    div.header, div.firstwin, div.twowin, div.threewin, div.fourwin, div.fivewin, div.sixwin, div.footer {
+      width: calc(100% - 26rem);
+        padding-left: 13rem;
+      padding-right: 13rem;
+      }
     .vl {
         height: auto;
+    }
+    div.firstwinwin {
+      padding: 0;
     }
     .imgbox2 {
         width: 50%;
         background-size: contain;
+    }
+    div.threewin11121, div.threewin11221 {
+      margin-top: 2rem;
+      font-size: 1rem;
     }
     div.fivewin12 {
         font-size: 3.5rem;
@@ -60,11 +91,10 @@ html {
       height: 50%;
     }
     div.fivewin21 p {
-        width: calc(100% - 14.365rem);
-        text-align: center;
-        padding: 2.5rem 7.1825rem 0 7.1825rem;
+        width: 100%;
+        padding: 2.5rem 0 0;
         line-height: 2rem;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         line-height: 2rem;
     }
     div.fivewin3 {
@@ -105,21 +135,13 @@ html {
     div.fivewin12 {
         font-size: 3.5rem;
     }
-    div.fivewin21 {
-      align-items: center;
-
-    }
     div.fivewin21 p {
-        width: calc(70% - 14.365rem);
-        text-align: center;
-        padding: 1.5rem 7.1825rem 0 7.1825rem;
+        width: 100%;
         line-height: 2rem;
-        font-size: 1.7rem;
+        font-size: 1.5rem;
         line-height: 3rem;
     }
-    div.fivewin3 {
-      display: none;
-    }
+
     p.fourwinmintext {
         font-size: 1.5rem;
     }
@@ -135,18 +157,22 @@ html {
     div.firstwin {
       clip-path: none;
     }
+    div.sixwin1112, div.sixwin119, div.sixwin116 {
+      display: none;
+    }
 }
 
-#header {
+.header {
   background-color: #E45125;
   height: 4.6875rem;
-  width: 100%;
+  width: calc(100% - 40rem);
+  padding: 0 20rem;
+
 }
 
 .allhead {
   height: 4.6875rem;
-  width: calc(100% - 40rem);
-  padding: 0 20rem;
+  width:100%;
   display: flex;
   justify-content: space-between;
   text-align: center;
@@ -260,11 +286,12 @@ p {
 }
 .but:hover{
   width: 20%;
-  height: 5rem;
+  height: 4rem;
   background-color: #a73e1e;
+  
   border-radius: 1rem;
   text-align: center;
-  line-height: 5rem;
+  line-height: 4rem;
   transform: scale(1rem);
 
 }
@@ -356,7 +383,7 @@ p {
 .threewin1121 {
   width: auto;
   height: 30%;
-  font-size: 2rem;
+  font-size: 1.8rem;
   line-height: 200%;
   color: #E45125;
   font-weight: bold;
@@ -534,7 +561,7 @@ p {
   margin-top: 10%;
 }
 .tecnonicol, .neftebitum, .mapid, .belaruscali, .volat{
-  width: 9,375rem;
+  width: 20%;
   height: 5rem;
 }
 .tecnonicol {
@@ -705,7 +732,7 @@ p {
     background-color: #E45125;
     color: #fff;
 }
-#footer {
+.footer {
   width: calc(100% - 40rem);
   padding: 2.5rem 20rem;
   height: 31rem;
