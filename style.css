@@ -5,6 +5,7 @@
 body {
   height: auto;
   width: 100vw;
+  opacity: 100%;
   background-color: #333;
   background-size: cover;
 }
@@ -142,8 +143,8 @@ html {
 
 .allhead {
   height: 4.6875rem;
-  width: auto;
-  padding: 0 7.8125rem;
+  width: calc(100% - 40rem);
+  padding: 0 20rem;
   display: flex;
   justify-content: space-between;
   text-align: center;
@@ -201,7 +202,7 @@ p {
 .firstwinwin {
   width: auto;
   height: 32.5rem;
-  padding: 6.25rem 7.8125rem 3.625rem 7.8125rem;
+  padding: 6.25rem 20rem 3.625rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -209,23 +210,21 @@ p {
 
 .priemtext {
   height: auto;
-  font-size: 2rem;
+  font-size: 3rem;
   color: #fff;
-  font-family: Inconsolata;
+  font-family: Montserrat;
   font-weight: bold;
 }
 
 .priemtext b {
-  font-size: 4rem;
+  font-size: 6rem;
   color: #E45125;
-  font-family: Inter;
+  font-family: Montserrat;
 }
 
 .vl {
-  height: calc(18,6875rem \ 2);
-  border-left: 10px solid white;
-  border-top-left-radius: 0.5rem;
-  border-bottom-left-radius: 0.5rem;
+  height: calc(18rem \ 2);
+  border-left: 5px solid white;
   display: block;
 }
 
@@ -235,17 +234,18 @@ p {
   color: #fff;
   font-size: 2rem;
   padding-left: 0.625rem;
-  font-family: inter;
+  font-family: Montserrat;
+  line-height: 2.5rem;
 }
 
 .but {
   width: 20%;
-  height: 5rem;
+  height: 4rem;
   background-color: #E45125;
   color: #fff;
   border-radius: 1rem;
   text-align: center;
-  line-height: 5rem;
+  line-height: 4rem;
 
 }
 .threewin1132 {
@@ -274,7 +274,8 @@ p {
   transform: scale(1rem);
 }
 .twowin {
-  width: 100%;
+  width: calc(100% - 40rem);
+  padding: 0 20rem;
   height: 51.3644rem;
   background-size: cover;
   background-position: center;
@@ -314,19 +315,20 @@ p {
   color: #fff;
   margin-top: 3rem;
   word-spacing: 0.5rem;
-  font-family: inter;
+  font-family: Montserrat;
   font-weight: lighter;
 }
 
 .ftor {
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #E45125;
   font-weight: bold;
-  font-family: inter;
+  font-family: Montserrat;
 }
 
 .threewin {
-  width: 100%;
+  width: calc(100%-40rem);
+  padding: 0 20rem ;
   height: 57.0625rem;
   background-image: url(img/back2.png);
   clip-path: polygon(0 0, 100% 0, 100% 95%, 0% 100%);
@@ -345,8 +347,8 @@ p {
 .threewin11 {
   width: auto;
   height: 44.500rem;
-  padding: 6.25rem 0 6.25rem 7.1875rem;
-  font-family: inter;
+  padding: 6.25rem 0 6.25rem;
+  font-family: Montserrat;
 }
 
 .threewin111, .threewin112 {
@@ -358,7 +360,7 @@ p {
 .threewin1121 {
   width: auto;
   height: 30%;
-  font-size: 2.5rem;
+  font-size: 2rem;
   line-height: 200%;
   color: #E45125;
   font-weight: bold;
@@ -375,7 +377,7 @@ p {
   border-left: 10px solid #fff;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
-  font-size: 1.5rem;
+  font-size: 1rem;
   padding-left: 1rem;
   margin-top: 1rem;
   color: #fff;
@@ -411,6 +413,8 @@ p {
   font-size: 1rem;
   text-align: center;
   align-content: center;
+  line-height: 4rem;
+
 }
 
 .imgbox3 {
@@ -434,47 +438,56 @@ p {
 
 
 .fourwin {
-  width: 100%;
+  width: calc(100%- 40rem);
+  padding: 0 20rem;
   height: 32rem;
-  font-family: inter;
+  font-family: Montserrat;
 }
 
 .fourwin1 {
     width: calc(100% - 7.1825rem);
     height: 10%;
-    padding: 2rem 0 0 7.1825rem;
-    font-size: 2.5rem;
+    padding: 2rem 0 0;
+    font-size: 2rem;
     color: #fff;
 }
 .fourwin2 {
-    width: calc(100% - 14.365rem);
-    height: 70%;
-    padding-left: 7.1825rem;
-    padding-right: 7.1825rem;
-    display: flex;
-    color: #E45125;
-    font-size: 2rem;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    text-align: center;
-    align-content: center;
+  width: calc(100% - 14.365rem);
+  height: 80%;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
 }
 .fourwin2text {
     height: auto;
-    width: 30%;
+    width: 45%;
     font-weight: bold;
+    margin-top: 1.25rem;
+    padding-right: 1rem;
+}
+.fourwin2text1 {
+  width: auto;
+  height: auto;
+  padding-left: 5%;
+  font-size: 1.25rem;
+  color: #E45125;
 }
 .fourwinmintext {
     width: auto;
     height: auto;
     color: #fff;
+    text-align: start;
     line-height: 2.5rem;
     align-items: center;
     font-weight: normal;
+    font-size: 1rem;
 }
 .fivewin {
   height: 78rem;
-  width: 100%;
+  width: calc(100% - 40rem);
+  padding: 0 20rem;
   background-image: url(img/back3.png);
   clip-path: polygon(0 5%, 100% 0, 100% 95%, 0% 100%);
   background-size: cover;
@@ -489,15 +502,16 @@ p {
 .fivewin12 {
   width: calc(100% - 7.1875rem);
   height: auto;
-  padding: 5rem 0 0 7.1875rem;
+  padding: 5rem 0 0;
   color: #E45125;
-  font-size: 2.5rem;
-  font-family: inter;
+  font-size: 2rem;
+  font-family: Montserrat;
+  font-weight: 700;
 }
 
 .fivewin2 {
   width: 100%;
-  height: auto;
+  height: 60%;
 }
 .fivewin21 {
     width: 100%;
@@ -507,15 +521,16 @@ p {
     justify-content: flex-start  
 }
 .fivewin21 p {
-  width: calc(50% - 7.1875rem);
+  width: 70%;
   height: auto;
-  padding: 2.5rem 0 0 7.1875rem;
+  padding: 2.5rem 0 0;
   color: #fff;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
+  font-weight: 500;
   word-spacing: 1rem;
   text-align: 20rem;
   line-height: 2rem;
-  font-family: inconsolata;
+  font-family: Montserrat;
 }
 
 .fivewin3 {
@@ -527,7 +542,7 @@ p {
   align-items: center;
   align-content: center;
   background-repeat: no-repeat;
-  margin-top: 20%;
+  margin-top: 10%;
 }
 .tecnonicol, .neftebitum, .mapid, .belaruscali, .volat{
   width: 9,375rem;
@@ -564,17 +579,19 @@ p {
   background-size: contain;
 }
 .sixwin {
-  width: 100%;
+  width: calc(100% - 40rem);
+  padding: 0 20rem;
   height: 65rem;
   display: inline-block;
-  font-family: inconsolata;
+  font-family: Montserrat;
 }
 
 .sixwin1 {
   height: calc(100% - 2.5rem);
   width: 30%;
-  padding: 2.5rem 0 0 7.1825rem;
+  padding: 2.5rem 0 0;
   display: inline-block;
+  float: inline-start;
 }
 .sixwin111, .sixwin112, .sixwin113, .sixwin114, .sixwin115, .sixwin116, .sixwin117, .sixwin118, .sixwin119, .sixwin1110, .sixwin1111, .sixwin1112, .sixwin1113 {
   height: 3rem;
@@ -588,7 +605,7 @@ p {
   font-weight: bold;
 }
 .sixwin112, .sixwin117, .sixwin1110, .sixwin1113 {
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   color: #E45125;
 }
 .sixwin118, .sixwin1111 {
@@ -596,12 +613,13 @@ p {
 }
 .sixwin111 {
   color: #E45125;
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-bottom: 4rem;
 }
 .sixwin112 {
   color: #fff;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
+  font-weight: 500;
   margin-bottom: 1rem;
 }
 .sixwin113 {
@@ -647,7 +665,7 @@ p {
 .sixwin2 {
     width: calc(60% - 14.365rem);
     height: calc(100% - 14.365rem);
-    padding: 7.1825rem;
+    padding: 7.1825rem 0 0;
     float: inline-end;
 }
 .contact {
@@ -692,10 +710,10 @@ p {
     color: #fff;
 }
 #footer {
-  width: calc(100% - 14.365rem);
+  width: calc(100% - 40rem);
+  padding: 2.5rem 20rem;
   height: 31rem;
   background-color: #E45125;
-  padding: 6.25rem 7.1825rem 6.25rem 7.1825rem;
   clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
   display: flex;
   flex-direction: column;
