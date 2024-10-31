@@ -8,6 +8,9 @@ body {
   opacity: 100%;
   background-color: #333;
   background-size: cover;
+  background-image: url(img/list.jpg);
+  background-position: center;
+
 }
 
 html {
@@ -283,29 +286,21 @@ p {
 }
 
 .imgbox2 {
-  width: 50%;
-  height: calc(51.3644rem - 20rem);
+  width: calc(50% - 1rem);
+  height: 98%;
   display: inline-block;
   float: inline-start;
-  background-image: url(img/block.png);
+  background-image: url(img/bbb.png);
   z-index: 0;
-  padding: 10rem 0;
+  margin: 1rem 1rem 1rem 0;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.maintext2 {
-  width: 50%;
-  height: 51.3644rem;
-  display: inline-block;
-  float: inline-end;
-  font-size: 2.5rem;
-}
-
 .maintext2win {
   width: auto;
-  height: auto;
-  padding: 6.25rem 7.8125rem 6.25rem 0;
+  height: calc(100% - 12.5rem);
+  padding: 6.25rem 0 6.25rem;
 }
 .maintext2wintext p {
   font-weight: 800px;
@@ -330,15 +325,13 @@ p {
   width: calc(100%-40rem);
   padding: 0 20rem ;
   height: 57.0625rem;
-  background-image: url(img/back2.png);
-  clip-path: polygon(0 0, 100% 0, 100% 95%, 0% 100%);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .threewin1 {
-  width: 50%;
+  width: 100%;
   height: 57.0625rem;
   display: inline-block;
   float: inline-start;
@@ -349,10 +342,14 @@ p {
   height: 44.500rem;
   padding: 6.25rem 0 6.25rem;
   font-family: Montserrat;
+  display: flex;
+  flex-wrap: wrap;
+    flex-direction: column;
+    align-content: flex-start;
 }
 
-.threewin111, .threewin112 {
-  width: 100%;
+.threewin111, .threewin112, .threewin113 {
+  width: 50%;
   height: 40%;
 }
 
@@ -386,12 +383,12 @@ p {
 }
 
 .threewin112 {
-  width: 100%;
+  width: 50%;
   height: 40%;
 }
 
 .threewin113 {
-  width: 100%;
+  width: 50%;
   height: 20%;
   display: flex;
   justify-content: flex-start;
@@ -416,32 +413,28 @@ p {
   line-height: 4rem;
 
 }
-
 .imgbox3 {
   width: 50%;
   height: 100%;
   display: inline-block;
   float: inline-end;
-}
-
-.imgbox32 {
-  width: calc(100% - 10rem);
-  height: calc(100% - 28.0625rem);
-  background-image: url(img/bitum.webp);
+  background-image: url(img/kroska.jpg);
   z-index: 0;
+  margin: 1rem  0 1rem 1rem;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  margin: 7.5rem 0 21.5625rem 0;
-  border-radius: 2rem;
 }
-
-
 .fourwin {
   width: calc(100%- 40rem);
   padding: 0 20rem;
   height: 32rem;
   font-family: Montserrat;
+  background-image: url(img/back2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  clip-path: polygon(0 10%, 100% 0, 100% 90%, 0% 100%);
 }
 
 .fourwin1 {
@@ -452,9 +445,8 @@ p {
     color: #fff;
 }
 .fourwin2 {
-  width: calc(100% - 14.365rem);
+  width: 100%;
   height: 80%;
-
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -488,8 +480,6 @@ p {
   height: 78rem;
   width: calc(100% - 40rem);
   padding: 0 20rem;
-  background-image: url(img/back3.png);
-  clip-path: polygon(0 5%, 100% 0, 100% 95%, 0% 100%);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -538,7 +528,7 @@ p {
   height: auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   align-content: center;
   background-repeat: no-repeat;
@@ -584,6 +574,12 @@ p {
   height: 65rem;
   display: inline-block;
   font-family: Montserrat;
+  background-image: url(img/back2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 }
 
 .sixwin1 {
@@ -592,6 +588,7 @@ p {
   padding: 2.5rem 0 0;
   display: inline-block;
   float: inline-start;
+  
 }
 .sixwin111, .sixwin112, .sixwin113, .sixwin114, .sixwin115, .sixwin116, .sixwin117, .sixwin118, .sixwin119, .sixwin1110, .sixwin1111, .sixwin1112, .sixwin1113 {
   height: 3rem;
@@ -663,27 +660,27 @@ p {
   height: auto;
 }
 .sixwin2 {
-    width: calc(60% - 14.365rem);
+    width: 60% ;
     height: calc(100% - 14.365rem);
-    padding: 7.1825rem 0 0;
+    padding: 2.5rem 0 0;
     float: inline-end;
 }
 .contact {
-    padding: 1rem;
     height: calc(100% + 25%);
 }
 .contact .heading {
     text-align: center;
     margin-bottom: 2rem;
     color: #E45125;
-    font-size: 4rem;
+    font-size: 2rem;
+    font-family: Montserrat;
 }
 
 .contact .row {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    gap: 1.5rem;
+    gap: 5rem;
 }
 .contact .row form {
     flex: 1 1 40rem;
@@ -714,7 +711,7 @@ p {
   padding: 2.5rem 20rem;
   height: 31rem;
   background-color: #E45125;
-  clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
   display: flex;
   flex-direction: column;
 }
