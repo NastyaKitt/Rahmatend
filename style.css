@@ -115,7 +115,7 @@ html {
       clip-path: none;
     }
 }
-@media screen and (min-width:600px) and (max-width:899px){
+@media screen and (min-width:601px) and (max-width:899px){
     html {
         font-size: 6px;
         width: 100vw;
@@ -131,12 +131,10 @@ html {
       width: auto;
 
     }
-    div.imgbox2 {
-        display: none;
-    }
-    div.sixwin113 {
-      display: none;
-    }
+    div.twowin {
+      height: 100rem;
+    } 
+
     div.maintext2 {
         width: calc(100% - 7.1825rem);
         height: 100%;
@@ -147,7 +145,7 @@ html {
         font-size: 5rem;
     }
     p.maintext2wintext{
-        font-size: 2.5rem;
+        font-size: 2.4rem;
     }
     div.fivewin12 {
         font-size: 3.5rem;
@@ -178,11 +176,11 @@ html {
     div.firstwin {
       clip-path: none;
     }
-    div.sixwin1112, div.sixwin119, div.sixwin116 {
+    div.sixwin1112, div.sixwin119, div.sixwin116, div.sixwin113 {
       display: none;}
 
 }
-@media screen and (min-width: 300px) and (max-width: 599px){
+@media screen and (min-width: 300px) and (max-width: 600px){
   html {
     font-size: 4px;
     width: 100vw;
@@ -192,9 +190,7 @@ html {
     background-image: none;
     background-color: #333;
   }
-  div.imgbox2 {
-    display: none;
-  }
+
   div.box {
     height: 20%;
   }
@@ -203,9 +199,7 @@ html {
     height: 100%;
     width: auto;
   }
-  div.sixwin113 {
-  display: none;
-  }
+
   div.maintext2 {
       width: calc(100% - 7.1825rem);
       height: 100%;
@@ -250,7 +244,7 @@ html {
   div.firstwin {
     clip-path: none;
   }
-  div.sixwin1112, div.sixwin119, div.sixwin116 {
+  div.sixwin1112, div.sixwin119, div.sixwin116, div.sixwin113 {
     display: none;
   }
   div.header, div.firstwinwin, div.twowin, div.threewin, div.fourwin, div.fivewin, div.sixwin, div.footer {
@@ -273,7 +267,7 @@ html {
   div.threewin11121, div.threewin11221 {
     font-size: 1.8rem;
   }
-  div.threewin113 {
+  div.threewin113, div.sixwin113 {
     display: none;
   }
   div.fivewin21 p {
