@@ -189,6 +189,8 @@ html {
   }
   body {
     width: 100vw;
+    background-image: none;
+    background-color: #333;
   }
   div.imgbox2 {
     display: none;
@@ -245,9 +247,9 @@ html {
     display: none;
   }
   div.header, div.firstwinwin, div.twowin, div.threewin, div.fourwin, div.fivewin, div.sixwin, div.footer {
-  width: calc(100% - 40rem);
-    padding-left: 20vw;
-  padding-right: 20vw;
+  width: calc(100% - 20vw);
+    padding-left: 10vw;
+  padding-right: 10vw;
   }
 }
 
