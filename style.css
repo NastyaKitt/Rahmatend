@@ -161,6 +161,66 @@ html {
       display: none;
     }
 }
+@media screen and (min-width: 300px) and (max-width: 599px){
+  html {
+    font-size: 4px;
+    width: 100vw;
+  }
+  body {
+    width: 100vw;
+  }
+  div.imgbox2 {
+    display: none;
+  }
+  div.sixwin113 {
+  display: none;
+  }
+  div.maintext2 {
+      width: calc(100% - 7.1825rem);
+      height: 100%;
+      padding-left: 7.1825rem;
+      text-align: center;
+  }
+  div.ftor{
+      font-size: 5rem;
+  }
+  p.maintext2wintext{
+      font-size: 2.5rem;
+  }
+  div.fivewin12 {
+      font-size: 3.5rem;
+  }
+  div.fivewin21 p {
+      width: 100%;
+      line-height: 2rem;
+      font-size: 1.5rem;
+      line-height: 3rem;
+  }
+
+  p.fourwinmintext {
+      font-size: 1.5rem;
+  }
+  div.threewin11121, div.threewin11221 {
+      font-size: 2rem;
+  }
+  div.threewin111 {
+      font-size: 2.5rem;
+  }
+  div.threewin1121 {
+      font-size: 2.5rem;
+  }
+  div.firstwin {
+    clip-path: none;
+  }
+  div.sixwin1112, div.sixwin119, div.sixwin116 {
+    display: none;
+  }
+  div.header, div.firstwinwin, div.twowin, div.threewin, div.fourwin, div.fivewin, div.sixwin, div.footer {
+  width: calc(100% - 40rem);
+    padding-left: 20rem;
+  padding-right: 20rem;
+  }
+}
 
 .header {
   background-color: #E45125;
