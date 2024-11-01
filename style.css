@@ -429,6 +429,7 @@ width: auto;
   margin: 1rem 1rem 1rem 0;
   background-position: center;
   background-repeat: no-repeat;
+  background-size:cover;
 }
 
 .maintext2win {
