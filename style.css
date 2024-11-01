@@ -41,7 +41,7 @@ html {
       font-size: 0.5rem;
     }
     div.firstwinwin {
-      padding: 0;
+      padding: 6.25rem 0;
     }
     h1.priemtext {
       font-size:2.5rem;
@@ -82,8 +82,12 @@ html {
     .vl {
         height: auto;
     }
+
     div.firstwinwin {
-      padding: 0;
+      padding: 6.25rem 0;
+    }
+    button.button {
+      font-size: 1rem;
     }
     .imgbox2 {
         width: 50%;
@@ -122,6 +126,14 @@ html {
     }
     body {
         width: 100vw;
+    }
+        div.box {
+      height: 20%;
+    }
+    button.button {
+      height: 100%;
+      width: auto;
+
     }
     div.imgbox2 {
         display: none;
@@ -181,6 +193,14 @@ html {
   div.imgbox2 {
     display: none;
   }
+  div.box {
+    height: 20%;
+  }
+  button.button {
+    font-size: 2rem;
+    height: 100%;
+    width: auto;
+  }
   div.sixwin113 {
   display: none;
   }
@@ -226,16 +246,16 @@ html {
   }
   div.header, div.firstwinwin, div.twowin, div.threewin, div.fourwin, div.fivewin, div.sixwin, div.footer {
   width: calc(100% - 40rem);
-    padding-left: 20rem;
-  padding-right: 20rem;
+    padding-left: 20vw;
+  padding-right: 20vw;
   }
 }
 
 .header {
   background-color: #E45125;
   height: 4.6875rem;
-  width: calc(100% - 40rem);
-  padding: 0 20rem;
+  width: calc(100% - 40vw);
+  padding: 0 20vw;
 
 }
 
@@ -299,7 +319,7 @@ p {
 .firstwinwin {
   width: auto;
   height: 32.5rem;
-  padding: 6.25rem 20rem 3.625rem;
+  padding: 6.25rem 20vw 3.625rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -335,7 +355,7 @@ p {
   line-height: 2.5rem;
 }
 
-.but {
+.button {
   width: 20%;
   height: 4rem;
   background-color: #E45125;
@@ -343,37 +363,32 @@ p {
   border-radius: 1rem;
   text-align: center;
   line-height: 4rem;
+  font-family: montserrat;
+  float: right;
 
 }
-.threewin1132 {
-  background-color: #E45125;
-  color: #fff;
-  border-radius: 1rem;
-  text-align: center;
-  line-height: 5rem;
-
+.threewin1132 button {
+  width: 90%;
+  height: auto;
 }
-.but:hover{
+.threewin1132 button:hover {
+  width: 90%;
+  height: auto;
+}
+.button:hover{
   width: 20%;
   height: 4rem;
   background-color: #a73e1e;
-  
+  font-family: montserrat;
   border-radius: 1rem;
   text-align: center;
   line-height: 4rem;
   transform: scale(1rem);
 
-}
-.threewin1132:hover {
-  background-color: #a73e1e;
-  border-radius: 1rem;
-  text-align: center;
-  line-height: 5rem;
-  transform: scale(1rem);
 }
 .twowin {
-  width: calc(100% - 40rem);
-  padding: 0 20rem;
+width: auto;
+  padding: 0 20vw;
   height: 51.3644rem;
   background-size: cover;
   background-position: center;
@@ -385,7 +400,7 @@ p {
   height: 98%;
   display: inline-block;
   float: inline-start;
-  background-image: url(img/bbb.png);
+  background-image: url(img/bbb.webp);
   z-index: 0;
   margin: 1rem 1rem 1rem 0;
   background-position: center;
@@ -418,7 +433,7 @@ p {
 
 .threewin {
   width: calc(100%-40rem);
-  padding: 0 20rem ;
+  padding: 0 20vw ;
   height: 57.0625rem;
   background-repeat: no-repeat;
   background-position: center;
@@ -499,14 +514,6 @@ p {
 .threewin1132 {
   width: 100%;
   height: 100%;
-  background-color: #E45125;
-  color: #fff;
-  border-radius: 10px;
-  font-size: 1rem;
-  text-align: center;
-  align-content: center;
-  line-height: 4rem;
-
 }
 .imgbox3 {
   width: 50%;
@@ -521,7 +528,7 @@ p {
 }
 .fourwin {
   width: calc(100%- 40rem);
-  padding: 0 20rem;
+  padding: 0 20vw;
   height: 32rem;
   font-family: Montserrat;
   background-image: url(img/back2.png);
@@ -573,8 +580,8 @@ p {
 }
 .fivewin {
   height: 78rem;
-  width: calc(100% - 40rem);
-  padding: 0 20rem;
+width:auto ;
+  padding: 0 20vw;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -629,6 +636,14 @@ p {
   background-repeat: no-repeat;
   margin-top: 10%;
 }
+.partnerss {
+  width: 100%;
+  height: 5rem;
+  color: #fff;
+  text-align: center;
+  line-height: 5rem;
+  font-size: 4rem;
+}
 .tecnonicol, .neftebitum, .mapid, .belaruscali, .volat{
   width: 20%;
   height: 5rem;
@@ -664,8 +679,8 @@ p {
   background-size: contain;
 }
 .sixwin {
-  width: calc(100% - 40rem);
-  padding: 0 20rem;
+  width: calc(100% - 40vw);
+  padding: 0 20vw;
   height: 65rem;
   display: inline-block;
   font-family: Montserrat;
@@ -778,32 +793,43 @@ p {
     gap: 5rem;
 }
 .contact .row form {
-    flex: 1 1 40rem;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
 }
 .contact .row form .box {
     width: 100%;
     margin: 1rem 0 2rem;
     border-radius: 1rem;
     padding: 0.5rem;
+    background-color: #333;
+    color: #fff;
 }
 .contact .row form span {
-    color: #fff;
-    font-size: calc(25px + (16 - 12) * (70vw - 600)/(1920 - 600));
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 500;
 }
 .btn {
     padding: 1rem 3rem;
     border-radius: 3rem;
-    font-weight: 800;
+    font-weight: 500;
+    font-family: montserrat;
+    color: #E45125;
+    background-color: #333;
     cursor: pointer;
     transform: 0.3s;
+    font-size: 1.5rem;
 }
 .btn:hover {
     background-color: #E45125;
     color: #fff;
 }
 .footer {
-  width: calc(100% - 40rem);
-  padding: 2.5rem 20rem;
+  width: calc(100% - 40vw);
+  padding: 2.5rem 20vw;
   height: 31rem;
   background-color: #E45125;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
