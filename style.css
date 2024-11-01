@@ -179,8 +179,8 @@ html {
       clip-path: none;
     }
     div.sixwin1112, div.sixwin119, div.sixwin116 {
-      display: none;
-    }
+      display: none;}
+
 }
 @media screen and (min-width: 300px) and (max-width: 599px){
   html {
@@ -230,6 +230,10 @@ html {
   div.imgbox3 {
     height: 70%;
   }
+  div.fourwin {
+    padding-top: 10%;
+    height: 35rem;
+  }
   p.fourwinmintext {
       font-size: 1.5rem;
   }
@@ -253,6 +257,16 @@ html {
   width: calc(100% - 20vw);
     padding-left: 10vw;
   padding-right: 10vw;
+  }
+  
+  div.sixwin111{
+    font-size: 4rem;  
+  }
+  div.sixwin112,  div.sixwin117,  div.sixwin1110, div.sixwin1113{
+    font-size: 2.4rem;
+  }
+  div.sixwin114, div.sixwin115, div.sixwin118,div.sixwin1111 {
+    font-size: 1.6rem;
   }
 }
 @media screen and (min-width: 100px) and (max-width: 360px){
@@ -556,7 +570,8 @@ width: auto;
 .fourwin {
   width: calc(100%- 40rem);
   padding: 0 20vw;
-  height: 32rem;
+  height: 35rem;
+  padding-top: 5%;
   font-family: Montserrat;
   background-image: url(img/back2.png);
   background-position: center;
@@ -728,7 +743,7 @@ width:auto ;
   
 }
 .sixwin111, .sixwin112, .sixwin113, .sixwin114, .sixwin115, .sixwin116, .sixwin117, .sixwin118, .sixwin119, .sixwin1110, .sixwin1111, .sixwin1112, .sixwin1113 {
-  height: 3rem;
+  height: auto;
   width: 100%;
   color: #fff;
   text-align: center;
