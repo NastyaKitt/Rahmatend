@@ -190,6 +190,9 @@ html {
     background-image: none;
     background-color: #333;
   }
+  p.numberphone {
+    font-size: 0.8rem;
+  }
 
   div.box {
     height: 20%;
