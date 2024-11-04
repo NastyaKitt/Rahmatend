@@ -37,9 +37,6 @@ html {
       padding-left: 15rem;
     padding-right: 15rem;
     }
-    div.centerlogo, div.rightlogo {
-      font-size: 0.5rem;
-    }
     h1.priemtext {
       font-size:2.5rem;
     }
@@ -202,6 +199,9 @@ html {
   p.maintext2wintext{
       font-size: 1.7rem;
   }
+  div.fivewin {
+    height: 88rem;
+  }
   div.fivewin12 {
       font-size: 3.5rem;
   }
@@ -216,7 +216,7 @@ html {
   }
   div.fourwin {
     padding-top: 10%;
-    height: 35rem;
+    height: 45rem;
   }
   p.fourwinmintext {
       font-size: 1.5rem;
@@ -252,6 +252,9 @@ html {
   div.sixwin114, div.sixwin115, div.sixwin118,div.sixwin1111 {
     font-size: 1.6rem;
   }
+  div.footer {
+    height: 35rem;
+  }
 }
 @media screen and (min-width: 100px) and (max-width: 360px){
   div.threewin11121, div.threewin11221 {
@@ -267,14 +270,14 @@ html {
 
 .header {
   background-color: #E45125;
-  height: 5rem;
+  height: 6rem;
   width: calc(100% - 40vw);
   padding: 0 20vw;
 
 }
 
 .allhead {
-  height: 5rem;
+  height: 6rem;
   width:100%;
   display: flex;
   justify-content: space-between;
@@ -282,7 +285,7 @@ html {
 }
 
 .leftlogo {
-  height: 4.0625rem;
+  height: 6rem;
   width: 15%;
   margin-top: 0.625rem;
   background-image: url(img/logo.png);
@@ -291,21 +294,24 @@ html {
 }
 
 .centerlogo {
-  height: 4.6875rem;
+  height: 6rem;
   width: auto;
   color: #fff;
   font-size: 1.5rem;
-  padding: 0.625rem 0;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
 }
 
-p {
+.centerlogo2 {
   color: #000000;
   font-size: 1.125rem;
 }
 
 .rightlogo {
   width: auto;
-  height: 4rem;
+  height: 5rem;
   padding-bottom: 0.5rem;
   position: sticky;
 }
