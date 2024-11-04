@@ -32,7 +32,7 @@ html {
     html {
         font-size: 14px;
     }
-    div.header, div.firstwin, div.twowin, div.threewin, div.fourwin, div.fivewin, div.sixwin, div.footer {
+    div.header, div.firstwinwin, div.twowin, div.threewin, div.fourwin, div.fivewin, div.sixwin, div.footer {
     width: calc(100% - 30rem);
       padding-left: 15rem;
     padding-right: 15rem;
@@ -40,17 +40,11 @@ html {
     div.centerlogo, div.rightlogo {
       font-size: 0.5rem;
     }
-    div.firstwinwin {
-      padding: 6.25rem 0;
-    }
     h1.priemtext {
       font-size:2.5rem;
     }
     h1.priemtext b {
       font-size: 5.5rem;
-    }
-    p.maintext1 {
-      font-size: 1.7rem;
     }
     div.vl {
         height: auto;
@@ -74,17 +68,13 @@ html {
     html {
         font-size: 12px;
     }
-    div.header, div.firstwin, div.twowin, div.threewin, div.fourwin, div.fivewin, div.sixwin, div.footer {
+    div.header, div.firstwinwin, div.twowin, div.threewin, div.fourwin, div.fivewin, div.sixwin, div.footer {
       width: calc(100% - 26rem);
         padding-left: 13rem;
       padding-right: 13rem;
       }
     .vl {
         height: auto;
-    }
-
-    div.firstwinwin {
-      padding: 6.25rem 0;
     }
     button.button {
       font-size: 1rem;
@@ -190,9 +180,6 @@ html {
     background-image: none;
     background-color: #333;
   }
-  p.numberphone {
-    font-size: 0.8rem;
-  }
 
   div.box {
     height: 20%;
@@ -213,7 +200,7 @@ html {
       font-size: 5rem;
   }
   p.maintext2wintext{
-      font-size: 1.87rem;
+      font-size: 1.7rem;
   }
   div.fivewin12 {
       font-size: 3.5rem;
@@ -317,9 +304,8 @@ p {
 }
 
 .rightlogo {
-  width: 10rem;
-  height: 3rem;
-  padding-top: 0.5rem;
+  width: auto;
+  height: 4rem;
   padding-bottom: 0.5rem;
   position: sticky;
 }
@@ -332,11 +318,18 @@ p {
 .numberphone b {
   font-size: 1.5rem;
 }
+.mail {
+  font-size: 1rem;
+  font-family: montserrat;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+}
 
 .firstwin {
   width: 100vw;
   height: 42.375rem;
-  background-image: url(img/back1.png);
+  background-image: url(img/back6.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -345,43 +338,30 @@ p {
 
 .firstwinwin {
   width: auto;
-  height: 32.5rem;
-  padding: 6.25rem 20vw 3.625rem;
+  height: 39rem;
+  padding: 0 20vw 3.625rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 
 .priemtext {
-  height: auto;
+  height: 60%;
   font-size: 3rem;
   color: #fff;
   font-family: Montserrat;
-  font-weight: bold;
+  font-weight: 700;
 }
-
 .priemtext b {
-  font-size: 6rem;
+  font-size: 5rem;
+  font-weight: bold;
   color: #E45125;
-  font-family: Montserrat;
 }
-
 .vl {
   height: calc(18rem \ 2);
   border-left: 5px solid white;
   display: block;
 }
-
-.maintext1 {
-  width: auto;
-  height: auto;
-  color: #fff;
-  font-size: 2rem;
-  padding-left: 0.625rem;
-  font-family: Montserrat;
-  line-height: 2.5rem;
-}
-
 .button {
   width: 20%;
   height: 4rem;
@@ -432,7 +412,6 @@ width: auto;
   margin: 1rem 1rem 1rem 0;
   background-position: center;
   background-repeat: no-repeat;
-  background-size:cover;
 }
 
 .maintext2win {
@@ -907,9 +886,10 @@ width:auto ;
 }
 
 .footer13 {
-  width: 20%;
+  width: 25%;
   height: 100%;
   padding: 5rem 0 5rem;
+  text-align: center;
 
 }
 
