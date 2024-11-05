@@ -32,7 +32,7 @@ html {
     html {
         font-size: 14px;
     }
-    div.header, div.firstwinwin, div.twowin, div.threewin, div.fourwin, div.fivewin, div.sixwin, div.footer {
+    div.firstwinwin, div.twowin, div.threewin, div.fourwin, div.fivewin, div.sixwin, div.footer {
     width: calc(100% - 30rem);
       padding-left: 15rem;
     padding-right: 15rem;
@@ -65,7 +65,7 @@ html {
     html {
         font-size: 12px;
     }
-    div.header, div.firstwinwin, div.twowin, div.threewin, div.fourwin, div.fivewin, div.sixwin, div.footer {
+    div.firstwinwin, div.twowin, div.threewin, div.fourwin, div.fivewin, div.sixwin, div.footer {
       width: calc(100% - 26rem);
         padding-left: 13rem;
       padding-right: 13rem;
@@ -237,7 +237,7 @@ html {
   div.sixwin1112, div.sixwin119, div.sixwin116, div.sixwin113 {
     display: none;
   }
-  div.header, div.firstwinwin, div.twowin, div.threewin, div.fourwin, div.fivewin, div.sixwin, div.footer {
+  div.firstwinwin, div.twowin, div.threewin, div.fourwin, div.fivewin, div.sixwin, div.footer {
   width: calc(100% - 20vw);
     padding-left: 10vw;
   padding-right: 10vw;
@@ -271,8 +271,8 @@ html {
 .header {
   background-color: #E45125;
   height: 6rem;
-  width: calc(100% - 23vw);
-  padding: 0 11vw 0 12vw;
+  width: calc(100% - 10vw);
+  padding: 0 5vw 0 5vw;
 
 }
 
