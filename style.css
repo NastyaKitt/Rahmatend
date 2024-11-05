@@ -312,15 +312,15 @@ html {
 .rightlogo {
   width: 20%;
   height: 6rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  margin-top: 1rem;
+
 }
 
 .numberphone {
   color: #fff;
   font-size: 1rem;
   text-decoration: none;
+  display: block;
 }
 
 .numberphone b {
