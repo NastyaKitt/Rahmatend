@@ -295,7 +295,7 @@ html {
 .centerlogo {
   height: 6rem;
   width: auto;
-  color: #fff;
+  color: #000;
   font-size: 1.7rem;
   display: flex;
   flex-wrap: nowrap;
@@ -312,19 +312,18 @@ html {
 .rightlogo {
   width: 20%;
   height: 6rem;
-  margin-top: 1rem;
-
 }
 
 .numberphone {
   color: #fff;
-  font-size: 1rem;
+  font-size: 1.5rem;
   text-decoration: none;
   display: block;
+  line-height: 6rem;
 }
 
 .numberphone b {
-  font-size: 1.3rem;
+  font-size: 1.8rem;
 }
 .mail {
   font-size: 1rem;
@@ -349,9 +348,9 @@ html {
   height: 39rem;
   padding: 0 11vw 3.625rem 12vw;
   display: inline-flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: nowrap;
-  align-items: flex-end;
+  align-items: flex-start;
   justify-content: space-between;
 }
 
@@ -375,24 +374,31 @@ html {
   display: block;
 }
 .box2 {
-  width: 40%;
+  height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  justify-content: flex-end;
 }
-.box21 {
-  width: 19.2rem;
+.box21, #box211 {
+  width: 50%;
   font-size: 2rem;
   color: #fff;
   font-family: montserrat;
   font-weight: 600;
+  text-align: center;
 }
-.box21 b {
+#box211 {
   color:#E45125;
   font-size: 3rem;
 }
+.iakor {
+  width: 50%;
+  text-align: center;
+}
 .button {
-  width: 19.2rem;
+  width: 50%;
   height: 4rem;
   background-color: #E45125;
   color: #fff;
@@ -400,7 +406,6 @@ html {
   text-align: center;
   line-height: 4rem;
   font-family: montserrat;
-  float: right;
   position: relative; 
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   overflow: hidden;
@@ -971,12 +976,9 @@ width:auto ;
   padding-top: 1rem;
   color: #fff;
 }
-
-.produser {
-  width: calc(100% - 14.365rem);
-  height: 2rem;
-  background-color: gray;
-  padding: 0 7.1825rem 0 7.1825rem;
-  text-align: center;
-  line-height: 2rem;
+.numberphon {
+  color: #fff;
+  font-size: 1.5rem;
+  text-decoration: none;
+  display: block;
 }
